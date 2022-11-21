@@ -1,0 +1,48 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: white;
+}
+
+ .topbar-logo{
+    height: 28px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.topbar-center{
+display: flex;
+align-items: center;
+width: 40%;
+border: 1px solid black;
+
+}
+.topbar-search{
+   width: 50px !important;
+   background-color: #fafafa; 
+   border-left: 1px solid lightgray;
+   
+}
+
+.topbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.topbar-icon{
+    margin-right: 8px;
+    
+    
+}
+.topbar-center > input {
+    flex: 1;
+    border: none;
+}
+
+
+
